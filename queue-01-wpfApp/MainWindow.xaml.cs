@@ -78,12 +78,7 @@ namespace queue_01_wpfApp
 
                     RedrawListBox();
                 }
-
             }
-
-
-
-
         }
 
 
