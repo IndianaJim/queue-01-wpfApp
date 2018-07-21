@@ -1,0 +1,34 @@
+﻿<Window x:Class="queue_01_wpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:queue_01_wpfApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Width="1024" Height="616.25">
+    <Grid Margin="0,0,-8,-4" Background="#FF7E94AE">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="136*"/>
+            <RowDefinition Height="9*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="164*"/>
+            <ColumnDefinition Width="343*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="listBox1" HorizontalAlignment="Left" Height="430" Margin="43,109,0,0" VerticalAlignment="Top" Width="682" FontFamily="Courier New" Grid.ColumnSpan="2" Background="#FFB8F3FF" />
+        <Button x:Name="deQueueButton" Content="Seat Top Guest &amp; Remove from List" HorizontalAlignment="Left" Margin="420,26,0,0" VerticalAlignment="Top" Width="235" Click="deQueueButton_Click" Height="39" Grid.Column="1" Background="#FF848DF3" Foreground="Black"/>
+        <Button x:Name="AddGuestButton" Content="Add New Guest to Wait List" HorizontalAlignment="Left" Margin="162,26,0,0" VerticalAlignment="Top" Width="235" Height="36" Click="AddGuestButton_Click" Grid.Column="1" Background="#FFA6ADF7" Foreground="Black"/>
+        <Label Content="Arrival Time" HorizontalAlignment="Left" Margin="43,81,0,0" VerticalAlignment="Top"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="229,81,0,0" VerticalAlignment="Top"/>
+        <Label Content="Phone" HorizontalAlignment="Left" Margin="91,81,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Label Content="Party Size" HorizontalAlignment="Left" Margin="191,81,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Label Content="Wait Time Elapsed" HorizontalAlignment="Left" Margin="290,81,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Label Content="Wait History" HorizontalAlignment="Left" Margin="420,108,0,0" VerticalAlignment="Top" Grid.Column="1" FontWeight="Bold"/>
+        <Label Content="Arrival                Party Size      Wait Time" Grid.Column="1" HorizontalAlignment="Left" Margin="420,131,0,0" VerticalAlignment="Top" Width="246"/>
+        <ListBox x:Name="historyBox" Grid.Column="1" HorizontalAlignment="Left" Height="382" Margin="420,157,0,0" VerticalAlignment="Top" Width="235" FontFamily="Courier New" Background="#FF8AC6D0" FontSize="11"/>
+        <Label Content="Queueinator 1000" HorizontalAlignment="Left" Margin="43,10,0,0" VerticalAlignment="Top" FontFamily="Rockwell" FontWeight="Bold" Foreground="White" Height="48" Width="337" FontSize="36" Grid.ColumnSpan="2"/>
+        <Label Content="contact:  jimrunkel@gmail.com" Grid.Column="1" HorizontalAlignment="Left" Margin="479,544,0,0" VerticalAlignment="Top" Height="35" Width="176" Grid.RowSpan="2"/>
+        <Button x:Name="sendSMSButton" Content="(future) Send &quot;Table Ready&quot; Text &gt;Top Guest" HorizontalAlignment="Left" Margin="420,68,0,0" VerticalAlignment="Top" Width="235" Height="39" Grid.Column="1" Background="#FFA6ADF7" Foreground="#FF616060" FontSize="11"/>
+
+    </Grid>
+</Window>

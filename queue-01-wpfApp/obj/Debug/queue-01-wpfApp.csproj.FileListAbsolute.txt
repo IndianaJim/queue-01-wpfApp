@@ -1,0 +1,16 @@
+D:\Dropbox\code\queue-01-wpfApp\queue-01-wpfApp\bin\Debug\queue-01-wpfApp.exe.config
+D:\Dropbox\code\queue-01-wpfApp\queue-01-wpfApp\bin\Debug\queue-01-wpfApp.exe
+D:\Dropbox\code\queue-01-wpfApp\queue-01-wpfApp\bin\Debug\queue-01-wpfApp.pdb
+D:\Dropbox\code\queue-01-wpfApp\queue-01-wpfApp\obj\Debug\queue-01-wpfApp.csprojAssemblyReference.cache
+D:\Dropbox\code\queue-01-wpfApp\queue-01-wpfApp\obj\Debug\MainWindow.g.cs
+D:\Dropbox\code\queue-01-wpfApp\queue-01-wpfApp\obj\Debug\App.g.cs
+D:\Dropbox\code\queue-01-wpfApp\queue-01-wpfApp\obj\Debug\queue-01-wpfApp_MarkupCompile.cache
+D:\Dropbox\code\queue-01-wpfApp\queue-01-wpfApp\obj\Debug\queue-01-wpfApp_MarkupCompile.lref
+D:\Dropbox\code\queue-01-wpfApp\queue-01-wpfApp\obj\Debug\MainWindow.baml
+D:\Dropbox\code\queue-01-wpfApp\queue-01-wpfApp\obj\Debug\queue-01-wpfApp.g.resources
+D:\Dropbox\code\queue-01-wpfApp\queue-01-wpfApp\obj\Debug\queue_01_wpfApp.Properties.Resources.resources
+D:\Dropbox\code\queue-01-wpfApp\queue-01-wpfApp\obj\Debug\queue-01-wpfApp.csproj.GenerateResource.cache
+D:\Dropbox\code\queue-01-wpfApp\queue-01-wpfApp\obj\Debug\queue-01-wpfApp.csproj.CoreCompileInputs.cache
+D:\Dropbox\code\queue-01-wpfApp\queue-01-wpfApp\obj\Debug\queue-01-wpfApp.exe
+D:\Dropbox\code\queue-01-wpfApp\queue-01-wpfApp\obj\Debug\queue-01-wpfApp.pdb
+D:\Dropbox\code\queue-01-wpfApp\queue-01-wpfApp\obj\Debug\queue_01_wpfApp.NewGuestForm.resources
