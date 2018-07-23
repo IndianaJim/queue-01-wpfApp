@@ -7,9 +7,7 @@ using System.Windows.Threading;
 
 namespace queue_01_wpfApp
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    
     public partial class MainWindow : Window
     {
         public Queue<string> myQueue = new Queue<string>();
@@ -105,15 +103,7 @@ namespace queue_01_wpfApp
         //    Application.Current.Shutdown();
         //}
 
-        //private void textBoxAddGuest_KeyUp(object sender, KeyEventArgs e)
-        //{
-        //    if (e.Key == Key.Enter)
-        //    {
-        //        e.Handled = true;
-        //        AddGuest();
-        //    }
-
-        //}
+     
 
 
     }
